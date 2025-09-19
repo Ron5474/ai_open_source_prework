@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini MMORPG Client</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    
+    <!-- Chat System -->
+    <div id="chatContainer">
+        <div id="chatMessages"></div>
+        <div id="chatInputContainer">
+            <input type="text" id="chatInput" placeholder="Type a message..." maxlength="200">
+            <button id="chatSend">Send</button>
+        </div>
+    </div>
+    
+    <!-- Mini-map -->
+    <div id="miniMapContainer">
+        <canvas id="miniMapCanvas"></canvas>
+        <div id="miniMapTitle">Mini-map</div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
