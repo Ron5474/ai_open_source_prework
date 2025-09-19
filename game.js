@@ -258,6 +258,7 @@ class GameClient {
         
         // Add welcome message
         this.addChatMessage('system', 'Welcome to the game! Type a message to chat with other players.');
+        this.addChatMessage('system', 'Temporarily Broken Because Game Server does not accept Chats');
     }
     
     sendChatMessage() {
